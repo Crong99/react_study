@@ -31,7 +31,7 @@ class NotificationList extends React.Component {
                 const index = notifications.length;
                 notifications.push(reservedNotifications[index]);
                 this.setState({
-                    notifications: !love0300notifications,
+                    notifications: notifications,
                 });
             } else {
                 clearInterval(timer);
